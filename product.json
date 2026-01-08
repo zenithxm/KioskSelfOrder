@@ -1,0 +1,414 @@
+[
+{
+  "id": "meal_combo_001",
+  "name": "Burger & Fries Combo",
+  "description": "Juicy beef burger with crispy fries and drink",
+  "category": "Happy Meal",
+  "price": 50000,
+  "image" : "https://imgs.search.brave.com/ezzrtxePBUNmwuW7vySIsf0LImZDE2oiei5aQ_F86A4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzkxLzg1LzEw/LzM2MF9GXzEyOTE4/NTEwMDZfT2ZEQzVM/dDNjVFJDQVJxbWVv/ak84OWhubU9LWVEx/UDYuanBn",
+  "stock" : 30,
+  "customize": [
+    {
+      "id": "mod_burger_type",
+      "name": "Burger Type",
+      "type": "single",
+      "options": [
+        { "id": "opt_beef", "name": "Beef", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_chicken", "name": "Grilled Chicken", "price": 4000, "stock": 0, "default": false },
+        { "id": "opt_veggie", "name": "Veggie Patty", "price": 5000, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_toppings",
+      "name": "Extra Toppings",
+      "type": "multi",
+      "options": [
+        { "id": "opt_cheese", "name": "Extra Cheese", "price": 5000, "stock": 10, "default": false },
+        { "id": "opt_bacon", "name": "Crispy Bacon", "price": 3000, "stock": 10, "default": false },
+        { "id": "opt_mushroom", "name": "Sautéed Mushrooms", "price": 2000, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_drink",
+      "name": "Drink Choice",
+      "type": "single",
+      "options": [
+        { "id": "opt_coke", "name": "Coca-Cola", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_sprite", "name": "Sprite", "price": 0, "stock": 10, "default": false },
+        { "id": "opt_iced_tea", "name": "Iced Tea", "price": 0, "stock": 10, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "pizza_001",
+  "name": "Margherita Pizza",
+  "description": "Classic pizza with fresh mozzarella and basil",
+  "category": "Appetizer;Special",
+  "price": 30000,
+  "image" : "https://imgs.search.brave.com/0d7YhZbDsgBbOKMaIGgWTZOXvomXtFXULHVxreb9w8Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA3LzkyLzU2Lzk3/LzM2MF9GXzc5MjU2/OTc5OF9RazJuQ3lt/NFMxS0lSbXA0TUtW/WTBkU3BRZlFHYWx0/Ni5qcGc",
+  "stock" : -1,
+  "customize": [
+    {
+      "id": "mod_size",
+      "name": "Size",
+      "type": "single",
+      "options": [
+        { "id": "opt_small", "name": "Small", "price": 0, "stock": 20, "default": true },
+        { "id": "opt_medium", "name": "Medium", "price": 5000, "stock": 10, "default": false },
+        { "id": "opt_large", "name": "Large", "price": 4000, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_toppings",
+      "name": "Extra Toppings",
+      "type": "multi",
+      "options": [
+        { "id": "opt_pepperoni", "name": "Pepperoni", "price": 15000, "stock": 10, "default": false },
+        { "id": "opt_mushrooms", "name": "Mushrooms", "price": 15000, "stock": 10, "default": false },
+        { "id": "opt_olives", "name": "Olives", "price": 1000, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_crust",
+      "name": "Crust Type",
+      "type": "single",
+      "options": [
+        { "id": "opt_classic", "name": "Classic", "price": 0, "stock": 20, "default": true },
+        { "id": "opt_thin", "name": "Thin Crust", "price": 10000, "stock": 10, "default": false },
+        { "id": "opt_stuffed", "name": "Stuffed Crust", "price": 20000, "stock": 10, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "nasgor_001",
+  "name": "Nasi Goreng",
+  "description": "Nasi di goreng dadakan wajib pake telor.",
+  "category": "Nasi",
+  "price": 15000,
+  "image" : "https://imgs.search.brave.com/EH2oYV6vDaJ_q4fA6l0vpTcBi5LHiKsDx0RKFvq-o6k/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzE2LzAwLzc5LzM0/LzM2MF9GXzE2MDA3/OTM0MThfWnpQNlNZ/U21ndkFmMTlCV2g2/UFFVQ3NLTXkwSHpE/elUuanBn",
+  "stock" : -1,
+  "customize": []
+},
+{
+  "id": "meal_combo_002",
+  "name": "Crispy Chicken Sandwich Combo",
+  "description": "Hand-breaded chicken fillet with lettuce, mayo, and fries",
+  "category": "Happy Meal",
+  "price": 55000,
+  "image": "https://imgs.search.brave.com/DHKmsiLsM5XmTC9JCeWegq1s0eY1a3DUKMzqJM0J_Zw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGl0dGxlc3BpY2Vq/YXIuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIwLzA2L0Ny/aXNweS1DaGlja2Vu/LVNhbmR3aWNoZXMt/MjItNzEweDEwNjUu/anBn",
+  "stock": 25,
+  "customize": [
+    {
+      "id": "mod_chicken_style",
+      "name": "Chicken Style",
+      "type": "single",
+      "options": [
+        { "id": "opt_crispy", "name": "Crispy Fried", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_grilled", "name": "Grilled", "price": 3000, "stock": 15, "default": false }
+      ]
+    },
+    {
+      "id": "mod_sauce",
+      "name": "Sauce",
+      "type": "single",
+      "options": [
+        { "id": "opt_mayo", "name": "Regular Mayo", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_spicy", "name": "Spicy Sriracha", "price": 2000, "stock": 10, "default": false },
+        { "id": "opt_honey", "name": "Honey Mustard", "price": 2000, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_side",
+      "name": "Side Choice",
+      "type": "single",
+      "options": [
+        { "id": "opt_fries", "name": "Regular Fries", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_salad", "name": "Garden Salad", "price": 0, "stock": 8, "default": false },
+        { "id": "opt_rings", "name": "Onion Rings", "price": 4000, "stock": 12, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "meal_combo_003",
+  "name": "BBQ Bacon Burger Combo",
+  "description": "Beef patty with BBQ sauce, bacon, onion rings, and drink",
+  "category": "Happy Meal",
+  "price": 62000,
+  "image": "https://imgs.search.brave.com/CXTFNoM_Eg_uPDvShE6sA3wmoasfs4EWSNOXhIwFoS4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9qYWNr/aW50aGVib3gtbWVu/dS5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjQvMDMvQkFD/T04tVUxUSU1BVEUt/Q0hFRVNFQlVSR0VS/JUUyJTg0JUEyLUNP/TUJPLnBuZw",
+  "stock": 20,
+  "customize": [
+    {
+      "id": "mod_patties",
+      "name": "Patties",
+      "type": "single",
+      "options": [
+        { "id": "opt_single", "name": "Single Patty", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_double", "name": "Double Patty", "price": 15000, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_onions",
+      "name": "Onion Style",
+      "type": "single",
+      "options": [
+        { "id": "opt_raw", "name": "Raw Onion", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_grilled", "name": "Grilled Onion", "price": 1000, "stock": 10, "default": false },
+        { "id": "opt_fried", "name": "Crispy Onion Straws", "price": 2000, "stock": 8, "default": false }
+      ]
+    },
+    {
+      "id": "mod_drink_size",
+      "name": "Drink Size",
+      "type": "single",
+      "options": [
+        { "id": "opt_medium", "name": "Medium", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_large", "name": "Large", "price": 3000, "stock": 15, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "wrap_001",
+  "name": "Garden Veggie Wrap",
+  "description": "Fresh lettuce, tomato, cucumber, hummus in a whole wheat tortilla",
+  "category": "Vegetarian;Special",
+  "price": 35000,
+  "image": "https://imgs.search.brave.com/eIKRS9koACKcm3D5KqnITzI22Mqy9_HduZmZtA-HAcU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vbW9zYWlj/Y2FmZWFuZGNhdGVy/aW5nLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8wOS92/ZWdnaWUtd3JhcC1z/Y2FsZWQuanBnP2Zp/dD0yNTYwLDE3Njgm/c3NsPTE",
+  "stock": 35,
+  "customize": [
+    {
+      "id": "mod_hummus",
+      "name": "Hummus Flavor",
+      "type": "single",
+      "options": [
+        { "id": "opt_classic", "name": "Classic Hummus", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_roasted", "name": "Roasted Red Pepper", "price": 1500, "stock": 10, "default": false },
+        { "id": "opt_garlic", "name": "Garlic Aioli", "price": 1500, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_add_ons",
+      "name": "Add-ons",
+      "type": "multi",
+      "options": [
+        { "id": "opt_avocado", "name": "Sliced Avocado", "price": 5000, "stock": 5, "default": false },
+        { "id": "opt_feta", "name": "Feta Cheese", "price": 4000, "stock": 8, "default": false },
+        { "id": "opt_spinach", "name": "Baby Spinach", "price": 1000, "stock": 10, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "meal_combo_004",
+  "name": "Classic Fish & Chips",
+  "description": "Beer-battered cod with golden fries and tartar sauce",
+  "category": "Happy Meal",
+  "price": 58000,
+  "image": "https://imgs.search.brave.com/ElXkYMl3lEf2nHE1EKZIZdX5yvL7AkhT5rngbF5STYk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWxscmVjaXBlcy5j/b20vdGhtYi9Vek96/MWI4aVdiYVg5T1JE/NWpuVzZSTTBPb1E9/LzE1MDB4MC9maWx0/ZXJzOm5vX3Vwc2Nh/bGUoKTptYXhfYnl0/ZXMoMTUwMDAwKTpz/dHJpcF9pY2MoKS9B/Ui0xNjU4MC1DbGFz/c2ljLUZpc2gtYW5k/LWNoaXBzLUJlYXV0/eS00eDMtOWNhNzhm/MjkyOWE2NGQ0OGFl/MDUyMDA4ZDAyMzU4/ZTIuanBn",
+  "stock": 18,
+  "customize": [
+    {
+      "id": "mod_fish_portion",
+      "name": "Fish Portion",
+      "type": "single",
+      "options": [
+        { "id": "opt_regular", "name": "Regular", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_large", "name": "Large", "price": 12000, "stock": 7, "default": false }
+      ]
+    },
+    {
+      "id": "mod_sauce",
+      "name": "Side Sauces",
+      "type": "multi",
+      "options": [
+        { "id": "opt_tartar", "name": "Tartar Sauce", "price": 0, "stock": -1, "default": false },
+        { "id": "opt_ketchup", "name": "Ketchup", "price": 0, "stock": 10, "default": false },
+        { "id": "opt_lemon", "name": "Lemon Wedge", "price": 0, "stock": 10, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "sushi_001",
+  "name": "Spicy Tuna Roll",
+  "description": "Fresh tuna with spicy mayo, cucumber, and sesame seeds",
+  "category": "Sushi",
+  "price": 42000,
+  "image": "https://imgs.search.brave.com/DwMgjwXWgr3o52aKp455fbnngweTDLyHeXD9fkBvTLI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YWx5b25hc2Nvb2tp/bmcuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE1LzEwL3Nw/aWN5LXR1bmEtcm9s/bC05LmpwZw",
+  "stock": 40,
+  "customize": [
+    {
+      "id": "mod_spice",
+      "name": "Spice Level",
+      "type": "single",
+      "options": [
+        { "id": "opt_mild", "name": "Mild", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_medium", "name": "Medium", "price": 0, "stock": 20, "default": false },
+        { "id": "opt_hot", "name": "Hot", "price": 0, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_soy",
+      "name": "Soy Sauce",
+      "type": "single",
+      "options": [
+        { "id": "opt_regular", "name": "Regular Soy", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_low_sodium", "name": "Low Sodium", "price": 0, "stock": 15, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "salad_001",
+  "name": "Grilled Chicken Caesar",
+  "description": "Romaine, grilled chicken, parmesan, croutons, Caesar dressing",
+  "category": "Salad",
+  "price": 48000,
+  "image": "https://imgs.search.brave.com/1h8CgDezKWsOX1R_Ydyu4JUCDC9tpHFFW0RM2AoLjuQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mb29k/c29jaWFsLmlvL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIxLzA0/L1dob2xlMzAtQ2Fl/c2FyLVNhbGFkLXdp/dGgtR3JpbGxlZC1D/aGlja2VuLVBhbGVv/LTQwMHg1MDAuanBn",
+  "stock": 22,
+  "customize": [
+    {
+      "id": "mod_dressing",
+      "name": "Dressing",
+      "type": "single",
+      "options": [
+        { "id": "opt_caesar", "name": "Classic Caesar", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_italian", "name": "Italian", "price": 0, "stock": 10, "default": false },
+        { "id": "opt_ranch", "name": "Ranch", "price": 0, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_croutons",
+      "name": "Croutons",
+      "type": "single",
+      "options": [
+        { "id": "opt_yes", "name": "With Croutons", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_no", "name": "No Croutons", "price": 0, "stock": 20, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "snack_001",
+  "name": "Loaded Beef Nachos",
+  "description": "Tortilla chips with seasoned beef, cheese, jalapeños, sour cream",
+  "category": "Appetizer",
+  "price": 45000,
+  "image": "https://imgs.search.brave.com/o49kC_iN2mWiYT4xas2QhExaUJLmbSJFLXXRhqdzB2k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9sb2Fk/ZWQtbmFjaG9zLW1l/eGljYW4tbmFjaG8t/Y2hpcHMtYmVlZi1n/dWFjYW1vbGUtc2F1/Y2UtY2hlZXNlLXNh/bHNhLWJlYW5zLXBl/cHBlcnMtc2xhdGUt/YmFja2dyb3VuZC0y/OTEzODQ1ODguanBn",
+  "stock": 30,
+  "customize": [
+    {
+      "id": "mod_protein",
+      "name": "Protein",
+      "type": "single",
+      "options": [
+        { "id": "opt_beef", "name": "Seasoned Beef", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_chicken", "name": "Grilled Chicken", "price": 5000, "stock": 12, "default": false },
+        { "id": "opt_black_bean", "name": "Black Beans", "price": 3000, "stock": 15, "default": false }
+      ]
+    },
+    {
+      "id": "mod_heat",
+      "name": "Extra Heat",
+      "type": "multi",
+      "options": [
+        { "id": "opt_jalapeno", "name": "Jalapeños", "price": 0, "stock": -1, "default": false },
+        { "id": "opt_habanero", "name": "Habanero Slices", "price": 2000, "stock": 5, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "pizza_002",
+  "name": "Pepperoni Feast",
+  "description": "Classic tomato sauce, mozzarella, and double pepperoni",
+  "category": "Appetizer",
+  "price": 60000,
+  "image": "https://imgs.search.brave.com/S1xg5sSZF_cnBqGygLGswfEc9xYXsRchUhrQEwBxZSA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wb3Bt/ZW51Y2xvdWQuY29t/L2Nkbi1jZ2kvaW1h/Z2Uvd2lkdGg9NjAw/LGhlaWdodD02MDAs/Zml0PXNjYWxlLWRv/d24sZm9ybWF0PWF1/dG8scXVhbGl0eT02/MC92ZGpiY2hnci84/MWMwMGY2Zi0yYjNj/LTQwMWMtYmZlZC00/NGMzY2YwMDVhOWEu/anBn",
+  "stock": -1,
+  "customize": [
+    {
+      "id": "mod_cheese",
+      "name": "Cheese Level",
+      "type": "single",
+      "options": [
+        { "id": "opt_normal", "name": "Normal Cheese", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_extra", "name": "Extra Cheese", "price": 8000, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_crust",
+      "name": "Crust",
+      "type": "single",
+      "options": [
+        { "id": "opt_classic", "name": "Classic Hand-Tossed", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_deep", "name": "Deep Dish", "price": 10000, "stock": 8, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "breakfast_001",
+  "name": "Southwest Breakfast Burrito",
+  "description": "Eggs, chorizo, black beans, cheese, and salsa in a flour tortilla",
+  "category": "Appetizer",
+  "price": 40000,
+  "image": "https://imgs.search.brave.com/na_Gfazd5_LIAzIRKhKV6HleioMDWHrzhOYa2zJSOdE/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4y/LmVnZ2xhbmRzYmVz/dC5jb20vYXNzZXRz/L2ltYWdlcy9yZWNp/cGVzL19yZWNpcGVJ/bWFnZS9VbnRpdGxl/ZC0xLmpwZw",
+  "stock": 28,
+  "customize": [
+    {
+      "id": "mod_egg_style",
+      "name": "Egg Style",
+      "type": "single",
+      "options": [
+        { "id": "opt_scrambled", "name": "Scrambled", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_fried", "name": "Fried", "price": 1000, "stock": 10, "default": false }
+      ]
+    },
+    {
+      "id": "mod_spice",
+      "name": "Salsa Heat",
+      "type": "single",
+      "options": [
+        { "id": "opt_mild", "name": "Mild Salsa", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_hot", "name": "Hot Salsa", "price": 0, "stock": 12, "default": false }
+      ]
+    }
+  ]
+},
+{
+  "id": "drink_001",
+  "name": "Double Chocolate Shake",
+  "description": "Rich chocolate ice cream blended with chocolate syrup and milk",
+  "category": "Dessert Drink",
+  "price": 32000,
+  "image": "https://imgs.search.brave.com/odyJ-Jvxwfo0LdwsRMS_JHI9-gVJolWuoVYul2QKWb8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/dWVuZ2FnZS5pby91/cGxvYWRzLzQ5MzE0/L2ltYWdlLTg0OTk1/NC0xNzIzMjAyOTM0/LmpwZWc",
+  "stock": 50,
+  "customize": [
+    {
+      "id": "mod_size",
+      "name": "Size",
+      "type": "single",
+      "options": [
+        { "id": "opt_medium", "name": "Medium", "price": 0, "stock": -1, "default": true },
+        { "id": "opt_large", "name": "Large", "price": 5000, "stock": 20, "default": false }
+      ]
+    },
+    {
+      "id": "mod_topping",
+      "name": "Toppings",
+      "type": "multi",
+      "options": [
+        { "id": "opt_whip", "name": "Whipped Cream", "price": 2000, "stock": 25, "default": false },
+        { "id": "opt_sprinkles", "name": "Chocolate Sprinkles", "price": 1000, "stock": 15, "default": false },
+        { "id": "opt_cherry", "name": "Cherry on Top", "price": 1500, "stock": 10, "default": false }
+      ]
+    }
+  ]
+}
+
+
+]
