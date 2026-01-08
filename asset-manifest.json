@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/KioskSelfOrder/static/css/main.dc2f0739.css",
-    "main.js": "/KioskSelfOrder/static/js/main.42349ccf.js",
+    "main.css": "/KioskSelfOrder/static/css/main.cb5242e1.css",
+    "main.js": "/KioskSelfOrder/static/js/main.57655dc1.js",
     "static/js/453.20359781.chunk.js": "/KioskSelfOrder/static/js/453.20359781.chunk.js",
     "index.html": "/KioskSelfOrder/index.html",
-    "main.dc2f0739.css.map": "/KioskSelfOrder/static/css/main.dc2f0739.css.map",
-    "main.42349ccf.js.map": "/KioskSelfOrder/static/js/main.42349ccf.js.map",
+    "main.cb5242e1.css.map": "/KioskSelfOrder/static/css/main.cb5242e1.css.map",
+    "main.57655dc1.js.map": "/KioskSelfOrder/static/js/main.57655dc1.js.map",
     "453.20359781.chunk.js.map": "/KioskSelfOrder/static/js/453.20359781.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc2f0739.css",
-    "static/js/main.42349ccf.js"
+    "static/css/main.cb5242e1.css",
+    "static/js/main.57655dc1.js"
   ]
 }
