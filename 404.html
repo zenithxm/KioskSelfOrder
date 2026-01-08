@@ -1,1 +1,23 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/KioskSelfOrder/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/KioskSelfOrder/logo192.png"/><link rel="manifest" href="/KioskSelfOrder/manifest.json"/><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"><title>React App</title><script defer="defer" src="/KioskSelfOrder/static/js/main.06d7b2a0.js"></script><link href="/KioskSelfOrder/static/css/main.99ab662f.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>React App</title>
+    <script type="text/javascript">
+      // This script takes the current URL and converts it into a query string
+      // so the main index.html can read it and load the right route.
+      var pathSegmentsToKeep = 1; 
+
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
